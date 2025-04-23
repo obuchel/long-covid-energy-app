@@ -1,0 +1,88 @@
+lor: #f9fafb;
+border-radius: 0.5rem;
+padding: 1.5rem;
+margin-bottom: 1.5rem;
+}
+
+ .input-grid {
+     display: grid;
+     grid-template-columns: 1fr;
+     gap: 1.5rem;
+ }
+
+ @media (min-width: 768px) {
+     .input-grid {
+	 grid-template-columns: 1fr 1fr;
+     }
+ }
+
+ .input-label {
+     display: block;
+     font-size: 0.875rem;
+     font-weight: 500;
+     color: #374151;
+     margin-bottom: 0.25rem;
+ }
+
+ .slider-container {
+     width: 100%;
+ }
+
+ .slider-labels {
+     display: flex;
+     justify-content: space-between;
+     font-size: 0.75rem;
+     color: #6b7280;
+ }
+
+ .recommendations-grid {
+     display: grid;
+     grid-template-columns: 1fr;
+     gap: 1.5rem;
+ }
+
+ @media (min-width: 768px) {
+     .recommendations-grid {
+	 grid-template-columns: 1fr 1fr;
+     }
+ }
+
+ .diet-panel {
+     background-color: #ecfdf5;
+     border-radius: 0.5rem;
+     padding: 1.5rem;
+ }
+
+ .exercise-panel {
+     background-color: #f5f3ff;
+     border-radius: 0.5rem;
+     padding: 1.5rem;
+ }
+
+ .recommendation-list {
+     list-style-type: none;
+     padding: 0;
+     margin: 0;
+ }
+
+ .recommendation-item {
+     display: flex;
+     align-items: flex-start;
+     margin-bottom: 0.5rem;
+ }
+
+ .recommendation-item:last-child {
+     margin-bottom: 0;
+ }
+
+ .bullet {
+     margin-right: 0.5rem;
+ }
+
+ .green-bullet {
+     color: #059669;
+ }
+
+ .purple-bullet {
+     color: #7c3aed;
+ }
