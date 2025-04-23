@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/long-covid-energy-app/static/css/main.98046ab2.css",
+    "main.js": "/long-covid-energy-app/static/js/main.36ab03e0.js",
+    "static/js/453.b3bac8f1.chunk.js": "/long-covid-energy-app/static/js/453.b3bac8f1.chunk.js",
+    "index.html": "/long-covid-energy-app/index.html",
+    "main.98046ab2.css.map": "/long-covid-energy-app/static/css/main.98046ab2.css.map",
+    "main.36ab03e0.js.map": "/long-covid-energy-app/static/js/main.36ab03e0.js.map",
+    "453.b3bac8f1.chunk.js.map": "/long-covid-energy-app/static/js/453.b3bac8f1.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.98046ab2.css",
+    "static/js/main.36ab03e0.js"
+  ]
+}
