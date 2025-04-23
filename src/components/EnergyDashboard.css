@@ -1,8 +1,85 @@
-lor: #f9fafb;
-border-radius: 0.5rem;
-padding: 1.5rem;
-margin-bottom: 1.5rem;
+
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 1rem;
 }
+
+.dashboard-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+.status-panel {
+  background-color: #ebf5ff;
+  border-radius: 0.5rem;
+  padding: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.panel-title {
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+.energy-display {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+@media (min-width: 768px) {
+  .energy-display {
+    flex-direction: row;
+  }
+}
+
+.energy-value {
+  margin-bottom: 1rem;
+}
+
+@media (min-width: 768px) {
+  .energy-value {
+    margin-bottom: 0;
+  }
+}
+
+.energy-number {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #2563eb;
+  text-align: center;
+}
+
+.energy-label {
+  font-size: 0.875rem;
+  color: #4b5563;
+  text-align: center;
+}
+
+.chart-container {
+  width: 100%;
+}
+
+@media (min-width: 768px) {
+  .chart-container {
+    width: 75%;
+  }
+}
+
+.input-panel {
+  background-color: #f9fafb;
+  border-radius: 0.5rem;
+  padding: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+ 
 
  .input-grid {
      display: grid;
